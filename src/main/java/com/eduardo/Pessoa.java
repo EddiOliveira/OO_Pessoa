@@ -20,6 +20,7 @@ public class Pessoa
         setSexo(sexo);
         setPeso(peso);
         setAltura(altura);
+        setImc();
     }
 
     public void setSexo(String sexo)
@@ -77,7 +78,6 @@ public class Pessoa
 
     public String calcularImc() // 1
     {
-        setImc();
         float imc = getImc();
         String sexo = getSexo();
         
